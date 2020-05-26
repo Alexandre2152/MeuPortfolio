@@ -1,0 +1,41 @@
+body{
+    background: rgb(221, 221, 221);
+}
+header{
+    z-index: 9;
+    position: sticky;
+    top: 0;
+}
+header#cabecalho{
+    background: rgb(222, 237, 255);
+    box-shadow:0px 3px 3px rgba(0, 0, 82, 0.199);
+}
+
+section{
+    background: rgb(163, 202, 209);
+    padding: 15px;
+}
+
+#slideDeImagens{
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#textoMenu{
+    text-transform: uppercase;
+}
+
+#cards{
+    padding: 15px;
+}
+
+img#imgCard{
+    object-fit: cover;
+}
+
+#campoCards{
+    margin: 0 auto;
+    align-items: center;
+}
